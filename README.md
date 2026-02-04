@@ -71,3 +71,12 @@ All sample data follows Ditto best practices:
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+**This demo data is provided "AS IS" for demonstration and testing purposes only.**
+
+- **No Support**: This repository is provided without any support, maintenance, updates, or enhancements.
+- **No Warranty**: The data is provided without warranty of any kind, express or implied, including but not limited to warranties of accuracy, completeness, or fitness for a particular purpose.
+- **No Liability**: The authors and contributors shall not be liable for any damages or issues arising from the use of this demo data.
+- **Not Production-Ready**: This data is intended for demonstrations, testing, and educational purposes only. Do not use in production environments without proper validation and modification.
