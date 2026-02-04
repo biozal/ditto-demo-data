@@ -1,6 +1,6 @@
-# Pluto Schema Design
+# Sample Logistics Schema Design
 
-This document describes the data model for Pluto, an aircrew digital coordination system designed for low-connectivity environments.
+This document describes the data model for sample logistics, an aircrew digital coordination system designed for low-connectivity environments.
 
 ## Design Principles
 
