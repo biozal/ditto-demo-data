@@ -1,0 +1,2377 @@
+[
+  {
+    "_id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "locationName": "Tinker Logistics Center",
+    "baseName": "Tinker Air Force Base",
+    "facilityType": "Air Logistics Complex - DLA Distribution Center",
+    "address": {
+      "street": "3301 F Avenue, Building 506",
+      "city": "Tinker AFB",
+      "state": "Oklahoma",
+      "zipCode": "73145"
+    },
+    "coordinates": {
+      "latitude": 35.4088,
+      "longitude": -97.3853
+    },
+    "phoneNumber": "405-739-7093",
+    "operationalStatus": "Active",
+    "notes": "Oklahoma City Air Logistics Complex - One of three major Air Force logistics complexes. Provides depot maintenance and supply chain management."
+  },
+  {
+    "_id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+    "locationName": "Ogden Logistics Complex",
+    "baseName": "Hill Air Force Base",
+    "facilityType": "Air Logistics Complex - DLA Distribution Hill",
+    "address": {
+      "street": "5851 F Avenue",
+      "city": "Hill AFB",
+      "state": "Utah",
+      "zipCode": "84056"
+    },
+    "coordinates": {
+      "latitude": 41.1189,
+      "longitude": -111.9738
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Ogden Air Logistics Complex - Major Air Force logistics hub supporting multiple weapon systems and providing depot-level maintenance."
+  },
+  {
+    "_id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+    "locationName": "Warner Robins Logistics Complex",
+    "baseName": "Robins Air Force Base",
+    "facilityType": "Air Logistics Complex",
+    "address": {
+      "street": "Building 215, Page Road",
+      "city": "Warner Robins",
+      "state": "Georgia",
+      "zipCode": "31098"
+    },
+    "coordinates": {
+      "latitude": 32.6373,
+      "longitude": -83.5883
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Warner Robins Air Logistics Complex - Named after the 'father of logistics' in the Air Force. Largest industrial complex in Georgia."
+  },
+  {
+    "_id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+    "locationName": "Wright-Patterson Logistics Center",
+    "baseName": "Wright-Patterson Air Force Base",
+    "facilityType": "Air Force Materiel Command Logistics",
+    "address": {
+      "street": "4185 Logistics Avenue, Building 286",
+      "city": "Wright-Patterson AFB",
+      "state": "Ohio",
+      "zipCode": "45433"
+    },
+    "coordinates": {
+      "latitude": 39.8261,
+      "longitude": -84.0483
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Home to Air Force Materiel Command. Major research, development, and logistics hub for Air Force operations."
+  },
+  {
+    "_id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+    "locationName": "Travis Logistics Center",
+    "baseName": "Travis Air Force Base",
+    "facilityType": "Logistics Readiness Squadron",
+    "address": {
+      "street": "351 Travis Avenue",
+      "city": "Fairfield",
+      "state": "California",
+      "zipCode": "94535"
+    },
+    "coordinates": {
+      "latitude": 38.2577,
+      "longitude": -121.9232
+    },
+    "phoneNumber": "707-424-3300",
+    "operationalStatus": "Active",
+    "notes": "60th Logistics Readiness Squadron - Largest Aircraft Parts Store in Air Mobility Command. Strategic airlift hub for Pacific operations."
+  },
+  {
+    "_id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+    "locationName": "Dover Logistics Center",
+    "baseName": "Dover Air Force Base",
+    "facilityType": "Logistics Readiness Squadron",
+    "address": {
+      "street": "520 Main Gate Way",
+      "city": "Dover AFB",
+      "state": "Delaware",
+      "zipCode": "19902"
+    },
+    "coordinates": {
+      "latitude": 39.1295,
+      "longitude": -75.4659
+    },
+    "phoneNumber": "302-677-4262",
+    "operationalStatus": "Active",
+    "notes": "436th Logistics Readiness Squadron - East Coast strategic airlift hub. Critical logistics support for Atlantic operations."
+  },
+  {
+    "_id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+    "locationName": "McChord Logistics Center",
+    "baseName": "Joint Base Lewis-McChord",
+    "facilityType": "Joint Base Logistics Operations",
+    "address": {
+      "street": "62nd Airlift Wing",
+      "city": "Tacoma",
+      "state": "Washington",
+      "zipCode": "98438"
+    },
+    "coordinates": {
+      "latitude": 47.1376,
+      "longitude": -122.4762
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Joint Army-Air Force installation. 62nd Airlift Wing provides worldwide strategic airlift. Logistics Gate operates 24/7."
+  },
+  {
+    "_id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
+    "locationName": "Scott Logistics Center",
+    "baseName": "Scott Air Force Base",
+    "facilityType": "Logistics Readiness Squadron - DLA Distribution",
+    "address": {
+      "street": "735 Seibert Road",
+      "city": "Scott AFB",
+      "state": "Illinois",
+      "zipCode": "62225"
+    },
+    "coordinates": {
+      "latitude": 38.5427,
+      "longitude": -89.8504
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "375th Logistics Readiness Squadron - Home to Air Mobility Command headquarters. Central logistics hub for AMC operations."
+  },
+  {
+    "_id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
+    "locationName": "Lackland Logistics Center",
+    "baseName": "Joint Base San Antonio-Lackland",
+    "facilityType": "Joint Base Logistics Operations",
+    "address": {
+      "street": "1701 Kenly Avenue, Building 10900",
+      "city": "Lackland AFB",
+      "state": "Texas",
+      "zipCode": "78236"
+    },
+    "coordinates": {
+      "latitude": 29.3842,
+      "longitude": -98.5811
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Part of Joint Base San Antonio. Primary location for Air Force basic training and major logistics operations in Southwest."
+  },
+  {
+    "_id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
+    "locationName": "Charleston Logistics Center",
+    "baseName": "Joint Base Charleston",
+    "facilityType": "Logistics Readiness Squadron",
+    "address": {
+      "street": "102 E Hill Boulevard",
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "zipCode": "29404"
+    },
+    "coordinates": {
+      "latitude": 32.894,
+      "longitude": -80.0691
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "628th Logistics Readiness Squadron - Joint Air Force and Navy installation. Provides rapid global mobility support with over $500M in supplies and equipment."
+  },
+  {
+    "_id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+    "locationName": "Nellis Combat Operations",
+    "baseName": "Nellis Air Force Base",
+    "facilityType": "Fighter Wing - Combat Training Center",
+    "address": {
+      "street": "4311 N Washington Boulevard, Suite 102",
+      "city": "Nellis AFB",
+      "state": "Nevada",
+      "zipCode": "89191"
+    },
+    "coordinates": {
+      "latitude": 36.2362,
+      "longitude": -115.0346
+    },
+    "phoneNumber": "702-652-1110",
+    "operationalStatus": "Active",
+    "notes": "Home of the Fighter Pilot. 57th Wing hosts advanced combat training including Red Flag exercises. Approximately 11,000 military personnel."
+  },
+  {
+    "_id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
+    "locationName": "Edwards Test Center",
+    "baseName": "Edwards Air Force Base",
+    "facilityType": "Air Force Test Center",
+    "address": {
+      "street": "20 W Popson Avenue",
+      "city": "Edwards AFB",
+      "state": "California",
+      "zipCode": "93524"
+    },
+    "coordinates": {
+      "latitude": 34.9033,
+      "longitude": -117.8835
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Air Force Test Center and Test Pilot School. Primary center for aerospace research, development, and testing. Located 100 miles northeast of Los Angeles."
+  },
+  {
+    "_id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
+    "locationName": "Offutt Strategic Command",
+    "baseName": "Offutt Air Force Base",
+    "facilityType": "Strategic Command Headquarters",
+    "address": {
+      "street": "901 SAC Boulevard",
+      "city": "Bellevue",
+      "state": "Nebraska",
+      "zipCode": "68113"
+    },
+    "coordinates": {
+      "latitude": 41.1183,
+      "longitude": -95.9052
+    },
+    "phoneNumber": "402-294-1110",
+    "operationalStatus": "Active",
+    "notes": "Headquarters of U.S. Strategic Command (USSTRATCOM). Home to 55th Wing and 557th Weather Wing. Located south of Omaha."
+  },
+  {
+    "_id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e",
+    "locationName": "Minot Bomber Wing",
+    "baseName": "Minot Air Force Base",
+    "facilityType": "Bomber Wing - Strategic Forces",
+    "address": {
+      "street": "220 Peacekeeper Place",
+      "city": "Minot AFB",
+      "state": "North Dakota",
+      "zipCode": "58704"
+    },
+    "coordinates": {
+      "latitude": 48.4156,
+      "longitude": -101.3578
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "5th Bomb Wing with B-52H Stratofortress. Also home to 91st Missile Wing. One of two remaining B-52 bases in USAF."
+  },
+  {
+    "_id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
+    "locationName": "Barksdale Bomber Operations",
+    "baseName": "Barksdale Air Force Base",
+    "facilityType": "Bomber Wing - Strategic Forces",
+    "address": {
+      "street": "345 Davis Avenue West",
+      "city": "Bossier City",
+      "state": "Louisiana",
+      "zipCode": "71110"
+    },
+    "coordinates": {
+      "latitude": 32.5018,
+      "longitude": -93.6627
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "2nd Bomb Wing - Oldest bomb wing in USAF. Equipped with approximately 44 B-52H Stratofortress bombers."
+  },
+  {
+    "_id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
+    "locationName": "Ellsworth Bomber Wing",
+    "baseName": "Ellsworth Air Force Base",
+    "facilityType": "Bomber Wing - B-1B Operations",
+    "address": {
+      "street": "1000 Ellsworth Street, Suite 1500",
+      "city": "Ellsworth AFB",
+      "state": "South Dakota",
+      "zipCode": "57706"
+    },
+    "coordinates": {
+      "latitude": 44.145,
+      "longitude": -103.1036
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "28th Bomb Wing with B-1B Lancer. One of two B-1B wings in USAF. Located 10 miles northeast of Rapid City."
+  },
+  {
+    "_id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b",
+    "locationName": "Luke Fighter Training",
+    "baseName": "Luke Air Force Base",
+    "facilityType": "Fighter Wing - Training Operations",
+    "address": {
+      "street": "14185 Falcon Street",
+      "city": "Glendale",
+      "state": "Arizona",
+      "zipCode": "85309"
+    },
+    "coordinates": {
+      "latitude": 33.535,
+      "longitude": -112.3833
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "56th Fighter Wing - Largest fighter wing in USAF. Primary F-16 and F-35 training base. Located west of Phoenix."
+  },
+  {
+    "_id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c",
+    "locationName": "Dyess Bomber Wing",
+    "baseName": "Dyess Air Force Base",
+    "facilityType": "Bomber Wing - B-1B Operations",
+    "address": {
+      "street": "448 Missile Road",
+      "city": "Abilene",
+      "state": "Texas",
+      "zipCode": "79607"
+    },
+    "coordinates": {
+      "latitude": 32.4207,
+      "longitude": -99.8546
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "7th Bomb Wing with B-1B Lancer. One of two B-1B strategic bomber wings in USAF. Located southwest of Abilene."
+  },
+  {
+    "_id": "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d",
+    "locationName": "Seymour Johnson Fighter Wing",
+    "baseName": "Seymour Johnson Air Force Base",
+    "facilityType": "Fighter Wing - F-15E Operations",
+    "address": {
+      "street": "1510 Wright Brothers Avenue",
+      "city": "Goldsboro",
+      "state": "North Carolina",
+      "zipCode": "27531"
+    },
+    "coordinates": {
+      "latitude": 35.3394,
+      "longitude": -77.9606
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "4th Fighter Wing. Responsible for training all F-15E Strike Eagle aircrews for the Air Force. Located in eastern North Carolina."
+  },
+  {
+    "_id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e",
+    "locationName": "Peterson Space Operations",
+    "baseName": "Peterson Space Force Base",
+    "facilityType": "Space Force Base",
+    "address": {
+      "street": "1334 W Stewart Avenue",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "zipCode": "80916"
+    },
+    "coordinates": {
+      "latitude": 38.8214,
+      "longitude": -104.7048
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Space Force installation. Shares runways with Colorado Springs Airport. Critical space operations and defense missions."
+  },
+  {
+    "_id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
+    "locationName": "Buckley Space Operations",
+    "baseName": "Buckley Space Force Base",
+    "facilityType": "Space Force Base",
+    "address": {
+      "street": "18500 East Sixth Avenue",
+      "city": "Aurora",
+      "state": "Colorado",
+      "zipCode": "80011"
+    },
+    "coordinates": {
+      "latitude": 39.701,
+      "longitude": -104.751
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Space Force base supporting space-based missile warning, space surveillance, and satellite operations. Located in Aurora metro area."
+  },
+  {
+    "_id": "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a",
+    "locationName": "Kirtland Research Center",
+    "baseName": "Kirtland Air Force Base",
+    "facilityType": "Research and Development Center",
+    "address": {
+      "street": "1451 4th Street SE, Building 20245",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "zipCode": "87117"
+    },
+    "coordinates": {
+      "latitude": 35.0375,
+      "longitude": -106.6055
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Major research and development facility. Adjacent to Albuquerque International Sunport. Multiple research laboratories and test facilities."
+  },
+  {
+    "_id": "e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b",
+    "locationName": "Langley Fighter Operations",
+    "baseName": "Joint Base Langley-Eustis",
+    "facilityType": "Fighter Wing - Air Combat Command HQ",
+    "address": {
+      "street": "11 Nealy Avenue",
+      "city": "Hampton",
+      "state": "Virginia",
+      "zipCode": "23665"
+    },
+    "coordinates": {
+      "latitude": 37.0829,
+      "longitude": -76.3607
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Headquarters of Air Combat Command. 1st Fighter Wing with F-22 Raptors. Joint Army-Air Force installation in Hampton Roads area."
+  },
+  {
+    "_id": "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c",
+    "locationName": "Andrews Presidential Airlift",
+    "baseName": "Joint Base Andrews",
+    "facilityType": "Presidential Airlift Wing",
+    "address": {
+      "street": "1191 Menoher Drive",
+      "city": "Joint Base Andrews",
+      "state": "Maryland",
+      "zipCode": "20762"
+    },
+    "coordinates": {
+      "latitude": 38.8108,
+      "longitude": -76.867
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Home of Air Force One. 316th Wing provides airlift for President, Vice President, and senior government officials. Located in Prince George's County."
+  },
+  {
+    "_id": "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d",
+    "locationName": "Hurlburt Special Operations",
+    "baseName": "Hurlburt Field",
+    "facilityType": "Special Operations Wing",
+    "address": {
+      "street": "220 Lukasik Avenue, Building 90213",
+      "city": "Mary Esther",
+      "state": "Florida",
+      "zipCode": "32544"
+    },
+    "coordinates": {
+      "latitude": 30.4278,
+      "longitude": -86.6892
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Air Force Special Operations Command headquarters. 1st Special Operations Wing. Located in Florida Panhandle west of Mary Esther."
+  },
+  {
+    "_id": "57412918-4c84-4ade-aeef-64a36dac3cd3",
+    "locationName": "Tinker Air Force Base - Maintenance Hangar",
+    "baseName": "Tinker Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 3301 F Avenue",
+      "city": "Tinker AFB",
+      "state": "Oklahoma",
+      "zipCode": "73145"
+    },
+    "coordinates": {
+      "latitude": 35.4088,
+      "longitude": -97.3853
+    },
+    "phoneNumber": "405-739-7093",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Tinker Air Force Base. Parent location ID: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+  },
+  {
+    "_id": "9ec5f240-3a64-477b-9a4c-f233e241ffe0",
+    "locationName": "Tinker Air Force Base - Supply Warehouse",
+    "baseName": "Tinker Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 3301 F Avenue",
+      "city": "Tinker AFB",
+      "state": "Oklahoma",
+      "zipCode": "73145"
+    },
+    "coordinates": {
+      "latitude": 35.4098,
+      "longitude": -97.3843
+    },
+    "phoneNumber": "405-739-7093",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Tinker Air Force Base. Parent location ID: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+  },
+  {
+    "_id": "79abca32-a0b4-4731-9bb4-e526e0c3665b",
+    "locationName": "Tinker Air Force Base - Operations Center",
+    "baseName": "Tinker Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 3301 F Avenue",
+      "city": "Tinker AFB",
+      "state": "Oklahoma",
+      "zipCode": "73145"
+    },
+    "coordinates": {
+      "latitude": 35.4108,
+      "longitude": -97.3833
+    },
+    "phoneNumber": "405-739-7093",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Tinker Air Force Base. Parent location ID: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+  },
+  {
+    "_id": "02d0a02a-7675-42b8-9244-a79cf85daa04",
+    "locationName": "Tinker Air Force Base - Administration Building",
+    "baseName": "Tinker Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 3301 F Avenue",
+      "city": "Tinker AFB",
+      "state": "Oklahoma",
+      "zipCode": "73145"
+    },
+    "coordinates": {
+      "latitude": 35.4118,
+      "longitude": -97.3823
+    },
+    "phoneNumber": "405-739-7093",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Tinker Air Force Base. Parent location ID: a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
+  },
+  {
+    "_id": "c15778b4-f18b-454c-8b98-7bbb72986332",
+    "locationName": "Hill Air Force Base - Maintenance Hangar",
+    "baseName": "Hill Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 5851 F Avenue",
+      "city": "Hill AFB",
+      "state": "Utah",
+      "zipCode": "84056"
+    },
+    "coordinates": {
+      "latitude": 41.1189,
+      "longitude": -111.9738
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Hill Air Force Base. Parent location ID: b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+  },
+  {
+    "_id": "e0912a9b-b6e5-4de9-a11d-8e15c2ce9566",
+    "locationName": "Hill Air Force Base - Supply Warehouse",
+    "baseName": "Hill Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 5851 F Avenue",
+      "city": "Hill AFB",
+      "state": "Utah",
+      "zipCode": "84056"
+    },
+    "coordinates": {
+      "latitude": 41.119899999999994,
+      "longitude": -111.97279999999999
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Hill Air Force Base. Parent location ID: b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+  },
+  {
+    "_id": "63d80c7a-5a68-450f-903e-82d237bc1689",
+    "locationName": "Hill Air Force Base - Operations Center",
+    "baseName": "Hill Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 5851 F Avenue",
+      "city": "Hill AFB",
+      "state": "Utah",
+      "zipCode": "84056"
+    },
+    "coordinates": {
+      "latitude": 41.1209,
+      "longitude": -111.9718
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Hill Air Force Base. Parent location ID: b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+  },
+  {
+    "_id": "06f27e49-9f3e-4da3-ba93-0d00cbb39c85",
+    "locationName": "Hill Air Force Base - Administration Building",
+    "baseName": "Hill Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 5851 F Avenue",
+      "city": "Hill AFB",
+      "state": "Utah",
+      "zipCode": "84056"
+    },
+    "coordinates": {
+      "latitude": 41.1219,
+      "longitude": -111.9708
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Hill Air Force Base. Parent location ID: b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
+  },
+  {
+    "_id": "c90ca937-316c-4579-8534-94328c544f85",
+    "locationName": "Robins Air Force Base - Maintenance Hangar",
+    "baseName": "Robins Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, Building 215",
+      "city": "Warner Robins",
+      "state": "Georgia",
+      "zipCode": "31098"
+    },
+    "coordinates": {
+      "latitude": 32.6373,
+      "longitude": -83.5883
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Robins Air Force Base. Parent location ID: c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f"
+  },
+  {
+    "_id": "16c570bf-5aed-4c2a-b44f-af5fde2d42c3",
+    "locationName": "Robins Air Force Base - Supply Warehouse",
+    "baseName": "Robins Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, Building 215",
+      "city": "Warner Robins",
+      "state": "Georgia",
+      "zipCode": "31098"
+    },
+    "coordinates": {
+      "latitude": 32.6383,
+      "longitude": -83.5873
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Robins Air Force Base. Parent location ID: c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f"
+  },
+  {
+    "_id": "cabf1a0c-00e0-48f6-bcd1-5e42ca1eeedd",
+    "locationName": "Robins Air Force Base - Operations Center",
+    "baseName": "Robins Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, Building 215",
+      "city": "Warner Robins",
+      "state": "Georgia",
+      "zipCode": "31098"
+    },
+    "coordinates": {
+      "latitude": 32.639300000000006,
+      "longitude": -83.58630000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Robins Air Force Base. Parent location ID: c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f"
+  },
+  {
+    "_id": "72c8f731-905c-4928-8af7-8cecb08ae92c",
+    "locationName": "Robins Air Force Base - Administration Building",
+    "baseName": "Robins Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, Building 215",
+      "city": "Warner Robins",
+      "state": "Georgia",
+      "zipCode": "31098"
+    },
+    "coordinates": {
+      "latitude": 32.6403,
+      "longitude": -83.5853
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Robins Air Force Base. Parent location ID: c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f"
+  },
+  {
+    "_id": "a2ac34e2-a51e-40df-8bc0-a097dbf56b1f",
+    "locationName": "Wright-Patterson Air Force Base - Maintenance Hangar",
+    "baseName": "Wright-Patterson Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 4185 Logistics Avenue",
+      "city": "Wright-Patterson AFB",
+      "state": "Ohio",
+      "zipCode": "45433"
+    },
+    "coordinates": {
+      "latitude": 39.8261,
+      "longitude": -84.0483
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Wright-Patterson Air Force Base. Parent location ID: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a"
+  },
+  {
+    "_id": "a9cd3dd8-0d2a-4996-a367-1b8d09d292a3",
+    "locationName": "Wright-Patterson Air Force Base - Supply Warehouse",
+    "baseName": "Wright-Patterson Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 4185 Logistics Avenue",
+      "city": "Wright-Patterson AFB",
+      "state": "Ohio",
+      "zipCode": "45433"
+    },
+    "coordinates": {
+      "latitude": 39.827099999999994,
+      "longitude": -84.04729999999999
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Wright-Patterson Air Force Base. Parent location ID: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a"
+  },
+  {
+    "_id": "42d76eb3-457f-4376-8968-dfc0e48611da",
+    "locationName": "Wright-Patterson Air Force Base - Operations Center",
+    "baseName": "Wright-Patterson Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 4185 Logistics Avenue",
+      "city": "Wright-Patterson AFB",
+      "state": "Ohio",
+      "zipCode": "45433"
+    },
+    "coordinates": {
+      "latitude": 39.8281,
+      "longitude": -84.0463
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Wright-Patterson Air Force Base. Parent location ID: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a"
+  },
+  {
+    "_id": "d193ab9b-608e-48c3-8e87-48c93736bce5",
+    "locationName": "Wright-Patterson Air Force Base - Administration Building",
+    "baseName": "Wright-Patterson Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 4185 Logistics Avenue",
+      "city": "Wright-Patterson AFB",
+      "state": "Ohio",
+      "zipCode": "45433"
+    },
+    "coordinates": {
+      "latitude": 39.8291,
+      "longitude": -84.0453
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Wright-Patterson Air Force Base. Parent location ID: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a"
+  },
+  {
+    "_id": "66a7334f-64cd-4544-a305-e40ad1b31da6",
+    "locationName": "Travis Air Force Base - Maintenance Hangar",
+    "baseName": "Travis Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 351 Travis Avenue",
+      "city": "Fairfield",
+      "state": "California",
+      "zipCode": "94535"
+    },
+    "coordinates": {
+      "latitude": 38.2577,
+      "longitude": -121.9232
+    },
+    "phoneNumber": "707-424-3300",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Travis Air Force Base. Parent location ID: e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b"
+  },
+  {
+    "_id": "e7806a1e-c06e-461b-9554-fe144ee05ca1",
+    "locationName": "Travis Air Force Base - Supply Warehouse",
+    "baseName": "Travis Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 351 Travis Avenue",
+      "city": "Fairfield",
+      "state": "California",
+      "zipCode": "94535"
+    },
+    "coordinates": {
+      "latitude": 38.2587,
+      "longitude": -121.92219999999999
+    },
+    "phoneNumber": "707-424-3300",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Travis Air Force Base. Parent location ID: e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b"
+  },
+  {
+    "_id": "df743f5e-3d4a-4891-8b0f-4cc3e4487ac9",
+    "locationName": "Travis Air Force Base - Operations Center",
+    "baseName": "Travis Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 351 Travis Avenue",
+      "city": "Fairfield",
+      "state": "California",
+      "zipCode": "94535"
+    },
+    "coordinates": {
+      "latitude": 38.2597,
+      "longitude": -121.9212
+    },
+    "phoneNumber": "707-424-3300",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Travis Air Force Base. Parent location ID: e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b"
+  },
+  {
+    "_id": "c6313f11-1889-4f5d-bdab-dee41a54c158",
+    "locationName": "Travis Air Force Base - Administration Building",
+    "baseName": "Travis Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 351 Travis Avenue",
+      "city": "Fairfield",
+      "state": "California",
+      "zipCode": "94535"
+    },
+    "coordinates": {
+      "latitude": 38.2607,
+      "longitude": -121.9202
+    },
+    "phoneNumber": "707-424-3300",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Travis Air Force Base. Parent location ID: e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b"
+  },
+  {
+    "_id": "17a9aaf5-f59b-42f7-b34e-a34c348395ee",
+    "locationName": "Dover Air Force Base - Maintenance Hangar",
+    "baseName": "Dover Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 520 Main Gate Way",
+      "city": "Dover AFB",
+      "state": "Delaware",
+      "zipCode": "19902"
+    },
+    "coordinates": {
+      "latitude": 39.1295,
+      "longitude": -75.4659
+    },
+    "phoneNumber": "302-677-4262",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Dover Air Force Base. Parent location ID: f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+  },
+  {
+    "_id": "abdd6f01-9851-4f25-a8fc-a3d2f3c8e7b6",
+    "locationName": "Dover Air Force Base - Supply Warehouse",
+    "baseName": "Dover Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 520 Main Gate Way",
+      "city": "Dover AFB",
+      "state": "Delaware",
+      "zipCode": "19902"
+    },
+    "coordinates": {
+      "latitude": 39.1305,
+      "longitude": -75.4649
+    },
+    "phoneNumber": "302-677-4262",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Dover Air Force Base. Parent location ID: f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+  },
+  {
+    "_id": "cea28d72-31ba-441b-81b9-684b703e8a5d",
+    "locationName": "Dover Air Force Base - Operations Center",
+    "baseName": "Dover Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 520 Main Gate Way",
+      "city": "Dover AFB",
+      "state": "Delaware",
+      "zipCode": "19902"
+    },
+    "coordinates": {
+      "latitude": 39.1315,
+      "longitude": -75.46390000000001
+    },
+    "phoneNumber": "302-677-4262",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Dover Air Force Base. Parent location ID: f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+  },
+  {
+    "_id": "59d50fd0-1356-4656-b7be-8a8f6d867762",
+    "locationName": "Dover Air Force Base - Administration Building",
+    "baseName": "Dover Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 520 Main Gate Way",
+      "city": "Dover AFB",
+      "state": "Delaware",
+      "zipCode": "19902"
+    },
+    "coordinates": {
+      "latitude": 39.1325,
+      "longitude": -75.4629
+    },
+    "phoneNumber": "302-677-4262",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Dover Air Force Base. Parent location ID: f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c"
+  },
+  {
+    "_id": "d2174621-70c1-45da-9e12-ec76101b4428",
+    "locationName": "Joint Base Lewis-McChord - Maintenance Hangar",
+    "baseName": "Joint Base Lewis-McChord",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 62nd Airlift Wing",
+      "city": "Tacoma",
+      "state": "Washington",
+      "zipCode": "98438"
+    },
+    "coordinates": {
+      "latitude": 47.1376,
+      "longitude": -122.4762
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Joint Base Lewis-McChord. Parent location ID: a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+  },
+  {
+    "_id": "9fa6fd4c-885f-4b1f-b393-b8c73d69a955",
+    "locationName": "Joint Base Lewis-McChord - Supply Warehouse",
+    "baseName": "Joint Base Lewis-McChord",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 62nd Airlift Wing",
+      "city": "Tacoma",
+      "state": "Washington",
+      "zipCode": "98438"
+    },
+    "coordinates": {
+      "latitude": 47.1386,
+      "longitude": -122.4752
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Joint Base Lewis-McChord. Parent location ID: a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+  },
+  {
+    "_id": "e7f16fe1-41fc-42e7-bf72-c9b108e341cd",
+    "locationName": "Joint Base Lewis-McChord - Operations Center",
+    "baseName": "Joint Base Lewis-McChord",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 62nd Airlift Wing",
+      "city": "Tacoma",
+      "state": "Washington",
+      "zipCode": "98438"
+    },
+    "coordinates": {
+      "latitude": 47.1396,
+      "longitude": -122.47420000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Joint Base Lewis-McChord. Parent location ID: a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+  },
+  {
+    "_id": "dc6e04d2-c8a3-4821-8c7b-a867ad3e6573",
+    "locationName": "Joint Base Lewis-McChord - Administration Building",
+    "baseName": "Joint Base Lewis-McChord",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 62nd Airlift Wing",
+      "city": "Tacoma",
+      "state": "Washington",
+      "zipCode": "98438"
+    },
+    "coordinates": {
+      "latitude": 47.1406,
+      "longitude": -122.4732
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Joint Base Lewis-McChord. Parent location ID: a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
+  },
+  {
+    "_id": "58ab39c9-bb01-4569-8023-3f1c034d9a70",
+    "locationName": "Scott Air Force Base - Maintenance Hangar",
+    "baseName": "Scott Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 735 Seibert Road",
+      "city": "Scott AFB",
+      "state": "Illinois",
+      "zipCode": "62225"
+    },
+    "coordinates": {
+      "latitude": 38.5427,
+      "longitude": -89.8504
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Scott Air Force Base. Parent location ID: b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e"
+  },
+  {
+    "_id": "15507d9d-142f-446d-bca6-7bffa86a9da1",
+    "locationName": "Scott Air Force Base - Supply Warehouse",
+    "baseName": "Scott Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 735 Seibert Road",
+      "city": "Scott AFB",
+      "state": "Illinois",
+      "zipCode": "62225"
+    },
+    "coordinates": {
+      "latitude": 38.5437,
+      "longitude": -89.84939999999999
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Scott Air Force Base. Parent location ID: b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e"
+  },
+  {
+    "_id": "24c2b03f-d7a6-436b-b2b0-dd0a251c4298",
+    "locationName": "Scott Air Force Base - Operations Center",
+    "baseName": "Scott Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 735 Seibert Road",
+      "city": "Scott AFB",
+      "state": "Illinois",
+      "zipCode": "62225"
+    },
+    "coordinates": {
+      "latitude": 38.544700000000006,
+      "longitude": -89.8484
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Scott Air Force Base. Parent location ID: b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e"
+  },
+  {
+    "_id": "5be4b014-c1ff-4b75-9b88-d6e6afbaea6e",
+    "locationName": "Scott Air Force Base - Administration Building",
+    "baseName": "Scott Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 735 Seibert Road",
+      "city": "Scott AFB",
+      "state": "Illinois",
+      "zipCode": "62225"
+    },
+    "coordinates": {
+      "latitude": 38.545700000000004,
+      "longitude": -89.8474
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Scott Air Force Base. Parent location ID: b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e"
+  },
+  {
+    "_id": "dc3d8a84-62be-499f-b605-8e554e9f7ab3",
+    "locationName": "Joint Base San Antonio-Lackland - Maintenance Hangar",
+    "baseName": "Joint Base San Antonio-Lackland",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 1701 Kenly Avenue",
+      "city": "Lackland AFB",
+      "state": "Texas",
+      "zipCode": "78236"
+    },
+    "coordinates": {
+      "latitude": 29.3842,
+      "longitude": -98.5811
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Joint Base San Antonio-Lackland. Parent location ID: c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f"
+  },
+  {
+    "_id": "1272854c-1489-4223-90a3-f8c4db0d11f9",
+    "locationName": "Joint Base San Antonio-Lackland - Supply Warehouse",
+    "baseName": "Joint Base San Antonio-Lackland",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 1701 Kenly Avenue",
+      "city": "Lackland AFB",
+      "state": "Texas",
+      "zipCode": "78236"
+    },
+    "coordinates": {
+      "latitude": 29.3852,
+      "longitude": -98.5801
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Joint Base San Antonio-Lackland. Parent location ID: c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f"
+  },
+  {
+    "_id": "75f183ba-fcca-487d-989f-723178a0ed71",
+    "locationName": "Joint Base San Antonio-Lackland - Operations Center",
+    "baseName": "Joint Base San Antonio-Lackland",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 1701 Kenly Avenue",
+      "city": "Lackland AFB",
+      "state": "Texas",
+      "zipCode": "78236"
+    },
+    "coordinates": {
+      "latitude": 29.3862,
+      "longitude": -98.57910000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Joint Base San Antonio-Lackland. Parent location ID: c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f"
+  },
+  {
+    "_id": "df47f409-a844-4975-8b73-a060f7a455db",
+    "locationName": "Joint Base San Antonio-Lackland - Administration Building",
+    "baseName": "Joint Base San Antonio-Lackland",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 1701 Kenly Avenue",
+      "city": "Lackland AFB",
+      "state": "Texas",
+      "zipCode": "78236"
+    },
+    "coordinates": {
+      "latitude": 29.3872,
+      "longitude": -98.5781
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Joint Base San Antonio-Lackland. Parent location ID: c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f"
+  },
+  {
+    "_id": "d3066b22-ef9e-46e4-a145-5ced9bbf32e8",
+    "locationName": "Joint Base Charleston - Maintenance Hangar",
+    "baseName": "Joint Base Charleston",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 102 E Hill Boulevard",
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "zipCode": "29404"
+    },
+    "coordinates": {
+      "latitude": 32.894,
+      "longitude": -80.0691
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Joint Base Charleston. Parent location ID: d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a"
+  },
+  {
+    "_id": "1b9bb426-ce5d-487a-977f-5b6340c2238e",
+    "locationName": "Joint Base Charleston - Supply Warehouse",
+    "baseName": "Joint Base Charleston",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 102 E Hill Boulevard",
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "zipCode": "29404"
+    },
+    "coordinates": {
+      "latitude": 32.894999999999996,
+      "longitude": -80.0681
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Joint Base Charleston. Parent location ID: d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a"
+  },
+  {
+    "_id": "4cad9bea-426c-48a9-a327-67113a9445ba",
+    "locationName": "Joint Base Charleston - Operations Center",
+    "baseName": "Joint Base Charleston",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 102 E Hill Boulevard",
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "zipCode": "29404"
+    },
+    "coordinates": {
+      "latitude": 32.896,
+      "longitude": -80.06710000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Joint Base Charleston. Parent location ID: d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a"
+  },
+  {
+    "_id": "4f80c0bf-9abd-47d1-bb17-e6d7e500ee75",
+    "locationName": "Joint Base Charleston - Administration Building",
+    "baseName": "Joint Base Charleston",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 102 E Hill Boulevard",
+      "city": "North Charleston",
+      "state": "South Carolina",
+      "zipCode": "29404"
+    },
+    "coordinates": {
+      "latitude": 32.897,
+      "longitude": -80.0661
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Joint Base Charleston. Parent location ID: d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a"
+  },
+  {
+    "_id": "088107f6-1ffe-4859-83ef-0465f870f959",
+    "locationName": "Nellis Air Force Base - Maintenance Hangar",
+    "baseName": "Nellis Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 4311 N Washington Boulevard",
+      "city": "Nellis AFB",
+      "state": "Nevada",
+      "zipCode": "89191"
+    },
+    "coordinates": {
+      "latitude": 36.2362,
+      "longitude": -115.0346
+    },
+    "phoneNumber": "702-652-1110",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Nellis Air Force Base. Parent location ID: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b"
+  },
+  {
+    "_id": "60281371-454f-4b01-b54e-81ad11c7e7b2",
+    "locationName": "Nellis Air Force Base - Supply Warehouse",
+    "baseName": "Nellis Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 4311 N Washington Boulevard",
+      "city": "Nellis AFB",
+      "state": "Nevada",
+      "zipCode": "89191"
+    },
+    "coordinates": {
+      "latitude": 36.237199999999994,
+      "longitude": -115.03359999999999
+    },
+    "phoneNumber": "702-652-1110",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Nellis Air Force Base. Parent location ID: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b"
+  },
+  {
+    "_id": "b5a2f49b-1dbc-4eea-ab95-16651bc8a799",
+    "locationName": "Nellis Air Force Base - Operations Center",
+    "baseName": "Nellis Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 4311 N Washington Boulevard",
+      "city": "Nellis AFB",
+      "state": "Nevada",
+      "zipCode": "89191"
+    },
+    "coordinates": {
+      "latitude": 36.2382,
+      "longitude": -115.0326
+    },
+    "phoneNumber": "702-652-1110",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Nellis Air Force Base. Parent location ID: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b"
+  },
+  {
+    "_id": "87e704e5-5aaa-4ff9-848b-1161a071f0c5",
+    "locationName": "Nellis Air Force Base - Administration Building",
+    "baseName": "Nellis Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 4311 N Washington Boulevard",
+      "city": "Nellis AFB",
+      "state": "Nevada",
+      "zipCode": "89191"
+    },
+    "coordinates": {
+      "latitude": 36.2392,
+      "longitude": -115.0316
+    },
+    "phoneNumber": "702-652-1110",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Nellis Air Force Base. Parent location ID: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b"
+  },
+  {
+    "_id": "1b7b0727-105c-4e3a-b6f5-af4c57aceb4f",
+    "locationName": "Edwards Air Force Base - Maintenance Hangar",
+    "baseName": "Edwards Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 20 W Popson Avenue",
+      "city": "Edwards AFB",
+      "state": "California",
+      "zipCode": "93524"
+    },
+    "coordinates": {
+      "latitude": 34.9033,
+      "longitude": -117.8835
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Edwards Air Force Base. Parent location ID: f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c"
+  },
+  {
+    "_id": "cb7bebd4-f92e-4309-8336-8278ff4e42b1",
+    "locationName": "Edwards Air Force Base - Supply Warehouse",
+    "baseName": "Edwards Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 20 W Popson Avenue",
+      "city": "Edwards AFB",
+      "state": "California",
+      "zipCode": "93524"
+    },
+    "coordinates": {
+      "latitude": 34.9043,
+      "longitude": -117.8825
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Edwards Air Force Base. Parent location ID: f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c"
+  },
+  {
+    "_id": "9552cdab-1784-49dc-81d5-15f603cf0293",
+    "locationName": "Edwards Air Force Base - Operations Center",
+    "baseName": "Edwards Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 20 W Popson Avenue",
+      "city": "Edwards AFB",
+      "state": "California",
+      "zipCode": "93524"
+    },
+    "coordinates": {
+      "latitude": 34.905300000000004,
+      "longitude": -117.8815
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Edwards Air Force Base. Parent location ID: f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c"
+  },
+  {
+    "_id": "4a8727ff-24f0-44b1-90d1-14acf4db472e",
+    "locationName": "Edwards Air Force Base - Administration Building",
+    "baseName": "Edwards Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 20 W Popson Avenue",
+      "city": "Edwards AFB",
+      "state": "California",
+      "zipCode": "93524"
+    },
+    "coordinates": {
+      "latitude": 34.9063,
+      "longitude": -117.8805
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Edwards Air Force Base. Parent location ID: f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c"
+  },
+  {
+    "_id": "d5b4b2ee-9e7c-4504-89a3-78acf49d755b",
+    "locationName": "Offutt Air Force Base - Maintenance Hangar",
+    "baseName": "Offutt Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 901 SAC Boulevard",
+      "city": "Bellevue",
+      "state": "Nebraska",
+      "zipCode": "68113"
+    },
+    "coordinates": {
+      "latitude": 41.1183,
+      "longitude": -95.9052
+    },
+    "phoneNumber": "402-294-1110",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Offutt Air Force Base. Parent location ID: a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d"
+  },
+  {
+    "_id": "86539ee2-26be-4ad4-8c0b-53b1210d5514",
+    "locationName": "Offutt Air Force Base - Supply Warehouse",
+    "baseName": "Offutt Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 901 SAC Boulevard",
+      "city": "Bellevue",
+      "state": "Nebraska",
+      "zipCode": "68113"
+    },
+    "coordinates": {
+      "latitude": 41.119299999999996,
+      "longitude": -95.90419999999999
+    },
+    "phoneNumber": "402-294-1110",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Offutt Air Force Base. Parent location ID: a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d"
+  },
+  {
+    "_id": "09160206-86b9-4c02-907c-2b6f1431d3a0",
+    "locationName": "Offutt Air Force Base - Operations Center",
+    "baseName": "Offutt Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 901 SAC Boulevard",
+      "city": "Bellevue",
+      "state": "Nebraska",
+      "zipCode": "68113"
+    },
+    "coordinates": {
+      "latitude": 41.1203,
+      "longitude": -95.9032
+    },
+    "phoneNumber": "402-294-1110",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Offutt Air Force Base. Parent location ID: a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d"
+  },
+  {
+    "_id": "cf7ff283-6223-49e6-815b-08d1b8e87361",
+    "locationName": "Offutt Air Force Base - Administration Building",
+    "baseName": "Offutt Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 901 SAC Boulevard",
+      "city": "Bellevue",
+      "state": "Nebraska",
+      "zipCode": "68113"
+    },
+    "coordinates": {
+      "latitude": 41.1213,
+      "longitude": -95.9022
+    },
+    "phoneNumber": "402-294-1110",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Offutt Air Force Base. Parent location ID: a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d"
+  },
+  {
+    "_id": "80b03435-178e-4f65-8916-ab1f50cea6e8",
+    "locationName": "Minot Air Force Base - Maintenance Hangar",
+    "baseName": "Minot Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 220 Peacekeeper Place",
+      "city": "Minot AFB",
+      "state": "North Dakota",
+      "zipCode": "58704"
+    },
+    "coordinates": {
+      "latitude": 48.4156,
+      "longitude": -101.3578
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Minot Air Force Base. Parent location ID: b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e"
+  },
+  {
+    "_id": "7e2e7edb-d1d4-4416-aa52-f9db4073acf5",
+    "locationName": "Minot Air Force Base - Supply Warehouse",
+    "baseName": "Minot Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 220 Peacekeeper Place",
+      "city": "Minot AFB",
+      "state": "North Dakota",
+      "zipCode": "58704"
+    },
+    "coordinates": {
+      "latitude": 48.416599999999995,
+      "longitude": -101.35679999999999
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Minot Air Force Base. Parent location ID: b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e"
+  },
+  {
+    "_id": "ede0c69f-ef57-43d7-8878-1767840d16a0",
+    "locationName": "Minot Air Force Base - Operations Center",
+    "baseName": "Minot Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 220 Peacekeeper Place",
+      "city": "Minot AFB",
+      "state": "North Dakota",
+      "zipCode": "58704"
+    },
+    "coordinates": {
+      "latitude": 48.4176,
+      "longitude": -101.3558
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Minot Air Force Base. Parent location ID: b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e"
+  },
+  {
+    "_id": "2deaddd1-73e4-408a-80cc-88ae31825a23",
+    "locationName": "Minot Air Force Base - Administration Building",
+    "baseName": "Minot Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 220 Peacekeeper Place",
+      "city": "Minot AFB",
+      "state": "North Dakota",
+      "zipCode": "58704"
+    },
+    "coordinates": {
+      "latitude": 48.4186,
+      "longitude": -101.3548
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Minot Air Force Base. Parent location ID: b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e"
+  },
+  {
+    "_id": "64a08f43-6de8-4b23-8de6-521d77a0a12a",
+    "locationName": "Barksdale Air Force Base - Maintenance Hangar",
+    "baseName": "Barksdale Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 345 Davis Avenue West",
+      "city": "Bossier City",
+      "state": "Louisiana",
+      "zipCode": "71110"
+    },
+    "coordinates": {
+      "latitude": 32.5018,
+      "longitude": -93.6627
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Barksdale Air Force Base. Parent location ID: c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f"
+  },
+  {
+    "_id": "1afa89ee-e267-4992-a461-8c7206822494",
+    "locationName": "Barksdale Air Force Base - Supply Warehouse",
+    "baseName": "Barksdale Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 345 Davis Avenue West",
+      "city": "Bossier City",
+      "state": "Louisiana",
+      "zipCode": "71110"
+    },
+    "coordinates": {
+      "latitude": 32.5028,
+      "longitude": -93.6617
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Barksdale Air Force Base. Parent location ID: c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f"
+  },
+  {
+    "_id": "1d1428ea-9ecc-4731-89fb-658784e1ab49",
+    "locationName": "Barksdale Air Force Base - Operations Center",
+    "baseName": "Barksdale Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 345 Davis Avenue West",
+      "city": "Bossier City",
+      "state": "Louisiana",
+      "zipCode": "71110"
+    },
+    "coordinates": {
+      "latitude": 32.503800000000005,
+      "longitude": -93.6607
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Barksdale Air Force Base. Parent location ID: c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f"
+  },
+  {
+    "_id": "8858b169-0756-4f7b-833d-59e3bf6e3f76",
+    "locationName": "Barksdale Air Force Base - Administration Building",
+    "baseName": "Barksdale Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 345 Davis Avenue West",
+      "city": "Bossier City",
+      "state": "Louisiana",
+      "zipCode": "71110"
+    },
+    "coordinates": {
+      "latitude": 32.5048,
+      "longitude": -93.6597
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Barksdale Air Force Base. Parent location ID: c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f"
+  },
+  {
+    "_id": "c10f22c7-37e1-4128-9e2b-ff988d15bdca",
+    "locationName": "Ellsworth Air Force Base - Maintenance Hangar",
+    "baseName": "Ellsworth Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 1000 Ellsworth Street",
+      "city": "Ellsworth AFB",
+      "state": "South Dakota",
+      "zipCode": "57706"
+    },
+    "coordinates": {
+      "latitude": 44.145,
+      "longitude": -103.1036
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Ellsworth Air Force Base. Parent location ID: d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a"
+  },
+  {
+    "_id": "5c3fe6ea-126e-49b9-b408-6c3f874d0ea7",
+    "locationName": "Ellsworth Air Force Base - Supply Warehouse",
+    "baseName": "Ellsworth Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 1000 Ellsworth Street",
+      "city": "Ellsworth AFB",
+      "state": "South Dakota",
+      "zipCode": "57706"
+    },
+    "coordinates": {
+      "latitude": 44.146,
+      "longitude": -103.1026
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Ellsworth Air Force Base. Parent location ID: d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a"
+  },
+  {
+    "_id": "69bdf3a0-de1a-4c7a-8a1d-12ba69016305",
+    "locationName": "Ellsworth Air Force Base - Operations Center",
+    "baseName": "Ellsworth Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 1000 Ellsworth Street",
+      "city": "Ellsworth AFB",
+      "state": "South Dakota",
+      "zipCode": "57706"
+    },
+    "coordinates": {
+      "latitude": 44.147000000000006,
+      "longitude": -103.1016
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Ellsworth Air Force Base. Parent location ID: d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a"
+  },
+  {
+    "_id": "057b877d-6bf3-482e-ba46-78f407ea578b",
+    "locationName": "Ellsworth Air Force Base - Administration Building",
+    "baseName": "Ellsworth Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 1000 Ellsworth Street",
+      "city": "Ellsworth AFB",
+      "state": "South Dakota",
+      "zipCode": "57706"
+    },
+    "coordinates": {
+      "latitude": 44.148,
+      "longitude": -103.1006
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Ellsworth Air Force Base. Parent location ID: d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a"
+  },
+  {
+    "_id": "b933fe86-f43d-4205-9210-c0746ec5797f",
+    "locationName": "Luke Air Force Base - Maintenance Hangar",
+    "baseName": "Luke Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 14185 Falcon Street",
+      "city": "Glendale",
+      "state": "Arizona",
+      "zipCode": "85309"
+    },
+    "coordinates": {
+      "latitude": 33.535,
+      "longitude": -112.3833
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Luke Air Force Base. Parent location ID: e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b"
+  },
+  {
+    "_id": "7c65ec20-6317-4f0a-9d84-834d71a4c828",
+    "locationName": "Luke Air Force Base - Supply Warehouse",
+    "baseName": "Luke Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 14185 Falcon Street",
+      "city": "Glendale",
+      "state": "Arizona",
+      "zipCode": "85309"
+    },
+    "coordinates": {
+      "latitude": 33.535999999999994,
+      "longitude": -112.3823
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Luke Air Force Base. Parent location ID: e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b"
+  },
+  {
+    "_id": "40f68a74-9c5c-4385-9127-4aa17acdbe15",
+    "locationName": "Luke Air Force Base - Operations Center",
+    "baseName": "Luke Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 14185 Falcon Street",
+      "city": "Glendale",
+      "state": "Arizona",
+      "zipCode": "85309"
+    },
+    "coordinates": {
+      "latitude": 33.537,
+      "longitude": -112.38130000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Luke Air Force Base. Parent location ID: e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b"
+  },
+  {
+    "_id": "f63d0659-77e1-4d32-8971-e7469a5f85d1",
+    "locationName": "Luke Air Force Base - Administration Building",
+    "baseName": "Luke Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 14185 Falcon Street",
+      "city": "Glendale",
+      "state": "Arizona",
+      "zipCode": "85309"
+    },
+    "coordinates": {
+      "latitude": 33.538,
+      "longitude": -112.3803
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Luke Air Force Base. Parent location ID: e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b"
+  },
+  {
+    "_id": "584caf80-2cad-43fb-afae-67e34b8e0423",
+    "locationName": "Dyess Air Force Base - Maintenance Hangar",
+    "baseName": "Dyess Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 448 Missile Road",
+      "city": "Abilene",
+      "state": "Texas",
+      "zipCode": "79607"
+    },
+    "coordinates": {
+      "latitude": 32.4207,
+      "longitude": -99.8546
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Dyess Air Force Base. Parent location ID: f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c"
+  },
+  {
+    "_id": "54e0da61-7b52-449a-83e4-a0b7887e6541",
+    "locationName": "Dyess Air Force Base - Supply Warehouse",
+    "baseName": "Dyess Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 448 Missile Road",
+      "city": "Abilene",
+      "state": "Texas",
+      "zipCode": "79607"
+    },
+    "coordinates": {
+      "latitude": 32.421699999999994,
+      "longitude": -99.8536
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Dyess Air Force Base. Parent location ID: f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c"
+  },
+  {
+    "_id": "cf3b9e71-150f-4f32-8241-9ef70a95e0e2",
+    "locationName": "Dyess Air Force Base - Operations Center",
+    "baseName": "Dyess Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 448 Missile Road",
+      "city": "Abilene",
+      "state": "Texas",
+      "zipCode": "79607"
+    },
+    "coordinates": {
+      "latitude": 32.4227,
+      "longitude": -99.85260000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Dyess Air Force Base. Parent location ID: f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c"
+  },
+  {
+    "_id": "346b4c85-f04d-4480-9077-dc725a47301b",
+    "locationName": "Dyess Air Force Base - Administration Building",
+    "baseName": "Dyess Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 448 Missile Road",
+      "city": "Abilene",
+      "state": "Texas",
+      "zipCode": "79607"
+    },
+    "coordinates": {
+      "latitude": 32.4237,
+      "longitude": -99.8516
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Dyess Air Force Base. Parent location ID: f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c"
+  },
+  {
+    "_id": "5fd54887-2abc-43c6-824e-3286b3ac3758",
+    "locationName": "Seymour Johnson Air Force Base - Maintenance Hangar",
+    "baseName": "Seymour Johnson Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 1510 Wright Brothers Avenue",
+      "city": "Goldsboro",
+      "state": "North Carolina",
+      "zipCode": "27531"
+    },
+    "coordinates": {
+      "latitude": 35.3394,
+      "longitude": -77.9606
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Seymour Johnson Air Force Base. Parent location ID: a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d"
+  },
+  {
+    "_id": "67b24625-8a00-483d-89e2-f418e3a6c304",
+    "locationName": "Seymour Johnson Air Force Base - Supply Warehouse",
+    "baseName": "Seymour Johnson Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 1510 Wright Brothers Avenue",
+      "city": "Goldsboro",
+      "state": "North Carolina",
+      "zipCode": "27531"
+    },
+    "coordinates": {
+      "latitude": 35.340399999999995,
+      "longitude": -77.9596
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Seymour Johnson Air Force Base. Parent location ID: a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d"
+  },
+  {
+    "_id": "13f45cee-cad1-4209-a6bf-8b56d74361cd",
+    "locationName": "Seymour Johnson Air Force Base - Operations Center",
+    "baseName": "Seymour Johnson Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 1510 Wright Brothers Avenue",
+      "city": "Goldsboro",
+      "state": "North Carolina",
+      "zipCode": "27531"
+    },
+    "coordinates": {
+      "latitude": 35.3414,
+      "longitude": -77.9586
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Seymour Johnson Air Force Base. Parent location ID: a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d"
+  },
+  {
+    "_id": "b7a230f8-7b0c-4a82-a206-6def4a5d953b",
+    "locationName": "Seymour Johnson Air Force Base - Administration Building",
+    "baseName": "Seymour Johnson Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 1510 Wright Brothers Avenue",
+      "city": "Goldsboro",
+      "state": "North Carolina",
+      "zipCode": "27531"
+    },
+    "coordinates": {
+      "latitude": 35.3424,
+      "longitude": -77.9576
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Seymour Johnson Air Force Base. Parent location ID: a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d"
+  },
+  {
+    "_id": "ec6e6399-f504-4d60-aaca-0bb851284a21",
+    "locationName": "Peterson Space Force Base - Maintenance Hangar",
+    "baseName": "Peterson Space Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 1334 W Stewart Avenue",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "zipCode": "80916"
+    },
+    "coordinates": {
+      "latitude": 38.8214,
+      "longitude": -104.7048
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Peterson Space Force Base. Parent location ID: b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e"
+  },
+  {
+    "_id": "aeb95bb8-0eb5-4abc-abb3-4741d56132f9",
+    "locationName": "Peterson Space Force Base - Supply Warehouse",
+    "baseName": "Peterson Space Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 1334 W Stewart Avenue",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "zipCode": "80916"
+    },
+    "coordinates": {
+      "latitude": 38.822399999999995,
+      "longitude": -104.7038
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Peterson Space Force Base. Parent location ID: b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e"
+  },
+  {
+    "_id": "e6a8a623-136d-4045-89cf-0b4787d4b5e9",
+    "locationName": "Peterson Space Force Base - Operations Center",
+    "baseName": "Peterson Space Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 1334 W Stewart Avenue",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "zipCode": "80916"
+    },
+    "coordinates": {
+      "latitude": 38.8234,
+      "longitude": -104.70280000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Peterson Space Force Base. Parent location ID: b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e"
+  },
+  {
+    "_id": "df058555-b06f-462e-aedd-5ab24a78409e",
+    "locationName": "Peterson Space Force Base - Administration Building",
+    "baseName": "Peterson Space Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 1334 W Stewart Avenue",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "zipCode": "80916"
+    },
+    "coordinates": {
+      "latitude": 38.8244,
+      "longitude": -104.7018
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Peterson Space Force Base. Parent location ID: b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e"
+  },
+  {
+    "_id": "b919c282-03f7-4543-ae02-d009b80b7982",
+    "locationName": "Buckley Space Force Base - Maintenance Hangar",
+    "baseName": "Buckley Space Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 18500 East Sixth Avenue",
+      "city": "Aurora",
+      "state": "Colorado",
+      "zipCode": "80011"
+    },
+    "coordinates": {
+      "latitude": 39.701,
+      "longitude": -104.751
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Buckley Space Force Base. Parent location ID: c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f"
+  },
+  {
+    "_id": "648a60a8-4b03-4e78-950d-74a31bcb5b50",
+    "locationName": "Buckley Space Force Base - Supply Warehouse",
+    "baseName": "Buckley Space Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 18500 East Sixth Avenue",
+      "city": "Aurora",
+      "state": "Colorado",
+      "zipCode": "80011"
+    },
+    "coordinates": {
+      "latitude": 39.702,
+      "longitude": -104.75
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Buckley Space Force Base. Parent location ID: c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f"
+  },
+  {
+    "_id": "c6c7c6bc-91ac-4fa0-8ad7-683b664083a4",
+    "locationName": "Buckley Space Force Base - Operations Center",
+    "baseName": "Buckley Space Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 18500 East Sixth Avenue",
+      "city": "Aurora",
+      "state": "Colorado",
+      "zipCode": "80011"
+    },
+    "coordinates": {
+      "latitude": 39.703,
+      "longitude": -104.74900000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Buckley Space Force Base. Parent location ID: c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f"
+  },
+  {
+    "_id": "3e5b4aa2-65b6-40f8-b265-452aa2bac0ff",
+    "locationName": "Buckley Space Force Base - Administration Building",
+    "baseName": "Buckley Space Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 18500 East Sixth Avenue",
+      "city": "Aurora",
+      "state": "Colorado",
+      "zipCode": "80011"
+    },
+    "coordinates": {
+      "latitude": 39.704,
+      "longitude": -104.748
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Buckley Space Force Base. Parent location ID: c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f"
+  },
+  {
+    "_id": "618fc8ec-1a4e-471f-ad99-f6d52f27d2d0",
+    "locationName": "Kirtland Air Force Base - Maintenance Hangar",
+    "baseName": "Kirtland Air Force Base",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 1451 4th Street SE",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "zipCode": "87117"
+    },
+    "coordinates": {
+      "latitude": 35.0375,
+      "longitude": -106.6055
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Kirtland Air Force Base. Parent location ID: d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a"
+  },
+  {
+    "_id": "6078a8db-ac9c-4669-be92-162cd8f89e07",
+    "locationName": "Kirtland Air Force Base - Supply Warehouse",
+    "baseName": "Kirtland Air Force Base",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 1451 4th Street SE",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "zipCode": "87117"
+    },
+    "coordinates": {
+      "latitude": 35.0385,
+      "longitude": -106.6045
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Kirtland Air Force Base. Parent location ID: d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a"
+  },
+  {
+    "_id": "3b3b2cfa-0845-4a48-a63f-ce28a79adfb6",
+    "locationName": "Kirtland Air Force Base - Operations Center",
+    "baseName": "Kirtland Air Force Base",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 1451 4th Street SE",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "zipCode": "87117"
+    },
+    "coordinates": {
+      "latitude": 35.039500000000004,
+      "longitude": -106.60350000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Kirtland Air Force Base. Parent location ID: d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a"
+  },
+  {
+    "_id": "528bc617-bfd4-4e66-9969-26d31d8f0e43",
+    "locationName": "Kirtland Air Force Base - Administration Building",
+    "baseName": "Kirtland Air Force Base",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 1451 4th Street SE",
+      "city": "Albuquerque",
+      "state": "New Mexico",
+      "zipCode": "87117"
+    },
+    "coordinates": {
+      "latitude": 35.0405,
+      "longitude": -106.6025
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Kirtland Air Force Base. Parent location ID: d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a"
+  },
+  {
+    "_id": "d58eaf46-a76f-4cd1-a891-a5e94f2b6a8e",
+    "locationName": "Joint Base Langley-Eustis - Maintenance Hangar",
+    "baseName": "Joint Base Langley-Eustis",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 11 Nealy Avenue",
+      "city": "Hampton",
+      "state": "Virginia",
+      "zipCode": "23665"
+    },
+    "coordinates": {
+      "latitude": 37.0829,
+      "longitude": -76.3607
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Joint Base Langley-Eustis. Parent location ID: e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b"
+  },
+  {
+    "_id": "b3845239-66a0-41e9-b621-3f55ae380bfc",
+    "locationName": "Joint Base Langley-Eustis - Supply Warehouse",
+    "baseName": "Joint Base Langley-Eustis",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 11 Nealy Avenue",
+      "city": "Hampton",
+      "state": "Virginia",
+      "zipCode": "23665"
+    },
+    "coordinates": {
+      "latitude": 37.0839,
+      "longitude": -76.35969999999999
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Joint Base Langley-Eustis. Parent location ID: e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b"
+  },
+  {
+    "_id": "bcd78d6a-85d1-4fdc-818c-c8207630ceff",
+    "locationName": "Joint Base Langley-Eustis - Operations Center",
+    "baseName": "Joint Base Langley-Eustis",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 11 Nealy Avenue",
+      "city": "Hampton",
+      "state": "Virginia",
+      "zipCode": "23665"
+    },
+    "coordinates": {
+      "latitude": 37.084900000000005,
+      "longitude": -76.3587
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Joint Base Langley-Eustis. Parent location ID: e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b"
+  },
+  {
+    "_id": "d4461d88-98ec-424f-b269-1de953a0ff59",
+    "locationName": "Joint Base Langley-Eustis - Administration Building",
+    "baseName": "Joint Base Langley-Eustis",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 11 Nealy Avenue",
+      "city": "Hampton",
+      "state": "Virginia",
+      "zipCode": "23665"
+    },
+    "coordinates": {
+      "latitude": 37.0859,
+      "longitude": -76.3577
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Joint Base Langley-Eustis. Parent location ID: e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b"
+  },
+  {
+    "_id": "5a6878f6-b548-473a-9d4d-d0995966ba0b",
+    "locationName": "Joint Base Andrews - Maintenance Hangar",
+    "baseName": "Joint Base Andrews",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 1191 Menoher Drive",
+      "city": "Joint Base Andrews",
+      "state": "Maryland",
+      "zipCode": "20762"
+    },
+    "coordinates": {
+      "latitude": 38.8108,
+      "longitude": -76.867
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Joint Base Andrews. Parent location ID: f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c"
+  },
+  {
+    "_id": "09f801ac-0c67-455b-a61f-c6b1a38d8d24",
+    "locationName": "Joint Base Andrews - Supply Warehouse",
+    "baseName": "Joint Base Andrews",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 1191 Menoher Drive",
+      "city": "Joint Base Andrews",
+      "state": "Maryland",
+      "zipCode": "20762"
+    },
+    "coordinates": {
+      "latitude": 38.8118,
+      "longitude": -76.866
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Joint Base Andrews. Parent location ID: f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c"
+  },
+  {
+    "_id": "b4148282-597f-4dbb-ba71-45006b98ffc3",
+    "locationName": "Joint Base Andrews - Operations Center",
+    "baseName": "Joint Base Andrews",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 1191 Menoher Drive",
+      "city": "Joint Base Andrews",
+      "state": "Maryland",
+      "zipCode": "20762"
+    },
+    "coordinates": {
+      "latitude": 38.8128,
+      "longitude": -76.86500000000001
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Joint Base Andrews. Parent location ID: f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c"
+  },
+  {
+    "_id": "abe08b9b-e51d-47ef-a57b-1392aa0f3b3d",
+    "locationName": "Joint Base Andrews - Administration Building",
+    "baseName": "Joint Base Andrews",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 1191 Menoher Drive",
+      "city": "Joint Base Andrews",
+      "state": "Maryland",
+      "zipCode": "20762"
+    },
+    "coordinates": {
+      "latitude": 38.8138,
+      "longitude": -76.864
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Joint Base Andrews. Parent location ID: f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c"
+  },
+  {
+    "_id": "a1b86ac9-d8da-4d70-8f20-b38174c65edf",
+    "locationName": "Hurlburt Field - Maintenance Hangar",
+    "baseName": "Hurlburt Field",
+    "facilityType": "Maintenance Hangar",
+    "address": {
+      "street": "Building 100, 220 Lukasik Avenue",
+      "city": "Mary Esther",
+      "state": "Florida",
+      "zipCode": "32544"
+    },
+    "coordinates": {
+      "latitude": 30.4278,
+      "longitude": -86.6892
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Maintenance Hangar for Hurlburt Field. Parent location ID: a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d"
+  },
+  {
+    "_id": "e8571934-6e77-47ce-83a1-374d9d43ea8a",
+    "locationName": "Hurlburt Field - Supply Warehouse",
+    "baseName": "Hurlburt Field",
+    "facilityType": "Supply Warehouse",
+    "address": {
+      "street": "Building 200, 220 Lukasik Avenue",
+      "city": "Mary Esther",
+      "state": "Florida",
+      "zipCode": "32544"
+    },
+    "coordinates": {
+      "latitude": 30.428800000000003,
+      "longitude": -86.6882
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Supply Warehouse for Hurlburt Field. Parent location ID: a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d"
+  },
+  {
+    "_id": "8d3ddf72-21fa-41cf-b5e8-8c30f90264a7",
+    "locationName": "Hurlburt Field - Operations Center",
+    "baseName": "Hurlburt Field",
+    "facilityType": "Operations Center",
+    "address": {
+      "street": "Building 300, 220 Lukasik Avenue",
+      "city": "Mary Esther",
+      "state": "Florida",
+      "zipCode": "32544"
+    },
+    "coordinates": {
+      "latitude": 30.4298,
+      "longitude": -86.6872
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Operations Center for Hurlburt Field. Parent location ID: a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d"
+  },
+  {
+    "_id": "5ee7656d-3c8f-46ce-a816-139193824372",
+    "locationName": "Hurlburt Field - Administration Building",
+    "baseName": "Hurlburt Field",
+    "facilityType": "Administration Building",
+    "address": {
+      "street": "Building 400, 220 Lukasik Avenue",
+      "city": "Mary Esther",
+      "state": "Florida",
+      "zipCode": "32544"
+    },
+    "coordinates": {
+      "latitude": 30.4308,
+      "longitude": -86.6862
+    },
+    "phoneNumber": "",
+    "operationalStatus": "Active",
+    "notes": "Administration Building for Hurlburt Field. Parent location ID: a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d"
+  }
+]

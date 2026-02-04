@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Data Model - Entity Relationship Diagram</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .diagram-container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .insight {
+            background: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .warning {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .code-block {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .hierarchy {
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            white-space: pre;
+            font-size: 14px;
+        }
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .column {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .column h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 USAF Sample Logistics Data Model - Entity Relationship Diagram</h1>
+
+    <div class="insight">
+        <strong>Key Insight:</strong> USAF Sample Logistics Data Model has <strong>two independent data hierarchies</strong> - one centered around missions, and one centered around aircraft maintenance. They are completely separate!
+    </div>
+
+    <div class="diagram-container">
+        <h2>📊 Full Entity Relationship Diagram</h2>
+        <div class="mermaid">
+erDiagram
+    %% Long-Lived Reference Data
+    CREW_MEMBERS {
+        string _id PK
+        string homeBase "FOR SUBSCRIPTION"
+        string status "Active/Inactive"
+        string crewPosition
+        string firstName
+        string lastName
+    }
+
+    AIRCRAFT {
+        string _id PK
+        string tailNumber UK "Unique identifier"
+        string homeBase "FOR SUBSCRIPTION"
+        string status "Mission Ready/Maintenance"
+        string aircraftType
+    }
+
+    %% Mission-Related Data (Mission-Centric)
+    MISSIONS {
+        string _id PK
+        string missionNumber UK
+        string departureBase "FOR SUBSCRIPTION"
+        string status "Planned/In Progress/Completed"
+        datetime completedAt "FOR EVICTION"
+        string aircraftTailNumber FK
+        string commandPilotId FK
+    }
+
+    CREW_ASSIGNMENTS {
+        string _id PK
+        string missionId FK "FOR EVICTION"
+        string missionDepartureBase "FOR SUBSCRIPTION"
+        string crewMemberId FK
+        string crewPosition
+    }
+
+    FLIGHT_LOGS {
+        string _id PK
+        string missionId FK "FOR EVICTION"
+        string missionDepartureBase "FOR SUBSCRIPTION"
+        string crewMemberId FK
+        string aircraftTailNumber FK
+        number flightDuration
+    }
+
+    MISSION_BRIEFS {
+        string _id PK
+        string missionId FK "FOR EVICTION"
+        string missionDepartureBase "FOR SUBSCRIPTION"
+        string briefingType
+        datetime briefedAt
+    }
+
+    STATUS_UPDATES {
+        string _id PK
+        string missionId FK "FOR EVICTION"
+        string missionDepartureBase "FOR SUBSCRIPTION"
+        string updateType
+        number latitude
+        number longitude
+    }
+
+    %% Aircraft-Related Data (Aircraft-Centric, INDEPENDENT of missions)
+    MAINTENANCE_STATUS {
+        string _id PK
+        string aircraftId FK "FOR EVICTION"
+        string aircraftHomeBase "FOR SUBSCRIPTION"
+        string aircraftTailNumber FK
+        string status "Open/In Progress/Resolved"
+        string discrepancyType "Critical/Major/Minor"
+        datetime resolvedAt "FOR EVICTION"
+    }
+
+    %% MISSION RELATIONSHIPS (Mission-Centric Branch)
+    MISSIONS ||--o{ CREW_ASSIGNMENTS : "has crew"
+    MISSIONS ||--o{ FLIGHT_LOGS : "generates logs"
+    MISSIONS ||--o{ MISSION_BRIEFS : "has briefs"
+    MISSIONS ||--o{ STATUS_UPDATES : "has updates"
+
+    MISSIONS }o--|| AIRCRAFT : "uses aircraft"
+    MISSIONS }o--|| CREW_MEMBERS : "commanded by"
+
+    %% CREW RELATIONSHIPS
+    CREW_MEMBERS ||--o{ CREW_ASSIGNMENTS : "assigned to missions"
+    CREW_MEMBERS ||--o{ FLIGHT_LOGS : "logs flights"
+
+    %% AIRCRAFT RELATIONSHIPS (Aircraft-Centric Branch - INDEPENDENT)
+    AIRCRAFT ||--o{ MAINTENANCE_STATUS : "has maintenance issues"
+    AIRCRAFT ||--o{ FLIGHT_LOGS : "used for flights"
+    AIRCRAFT ||--o{ MISSIONS : "assigned to missions"
+        </div>
+    </div>
+
+    <h2>🌳 Two Independent Data Hierarchies</h2>
+
+    <div class="two-column">
+        <div class="column">
+            <h3>Mission-Centric Hierarchy</h3>
+            <div class="hierarchy">MISSIONS (parent)
+├── crew_assignments
+├── flight_logs
+├── mission_briefs
+└── status_updates</div>
+            <p><strong>All evicted together</strong> when mission is completed + 30 days</p>
+            <p><strong>Subscription field:</strong> <code>missionDepartureBase</code></p>
+            <p><strong>Eviction field:</strong> <code>missionId</code></p>
+        </div>
+
+        <div class="column">
+            <h3>Aircraft-Centric Hierarchy</h3>
+            <div class="hierarchy">AIRCRAFT (parent)
+└── maintenance_status</div>
+            <p><strong>Evicted independently</strong> 60 days after resolution</p>
+            <p><strong>Subscription field:</strong> <code>aircraftHomeBase</code></p>
+            <p><strong>Eviction field:</strong> <code>aircraftId</code></p>
+        </div>
+    </div>
+
+    <div class="warning">
+        <strong>⚠️ Important:</strong> <code>maintenance_status</code> does NOT link to missions! It exists independently on the aircraft, regardless of whether the aircraft is on a mission or not.
+    </div>
+
+    <h2>🔧 Why Maintenance is Separate</h2>
+
+    <div class="insight">
+        <p><strong>Scenario:</strong> Maintenance crew discovers hydraulic leak on tail number <code>90-0001</code></p>
+        <ol>
+            <li>Create maintenance record linked to <strong>aircraft</strong>, not to any mission</li>
+            <li>Update aircraft status to "Down for Repairs"</li>
+            <li>Mission planning sees aircraft unavailable (can't assign to missions)</li>
+            <li>Maintenance crew fixes the issue</li>
+            <li>Mark maintenance record as "Resolved"</li>
+            <li>60 days later, evict the resolved maintenance record</li>
+        </ol>
+        <p><strong>Key point:</strong> This entire flow happens <strong>without any mission involvement</strong>. The aircraft might not even be on a mission when the issue is discovered!</p>
+    </div>
+
+    <h2>👥 Different Teams, Different Subscriptions</h2>
+
+    <div class="two-column">
+        <div class="column">
+            <h3>Maintenance Crew</h3>
+            <div class="code-block">SELECT * FROM aircraft
+WHERE homeBase = 'Nellis AFB'
+
+SELECT * FROM maintenance_status
+WHERE aircraftHomeBase = 'Nellis AFB'
+AND status IN ('Open', 'In Progress')</div>
+            <p>They may <strong>never look at missions</strong> at all!</p>
+        </div>
+
+        <div class="column">
+            <h3>Mission Planning Team</h3>
+            <div class="code-block">SELECT * FROM missions
+WHERE departureBase = 'Nellis AFB'
+
+SELECT * FROM crew_assignments
+WHERE missionDepartureBase = 'Nellis AFB'</div>
+            <p>They only care about maintenance <strong>indirectly</strong> (to see if aircraft is available)</p>
+        </div>
+    </div>
+
+    <h2>🗑️ Eviction Strategies</h2>
+
+    <div class="column" style="margin: 20px 0;">
+        <h3>Mission-Related Data (Evict by missionId)</h3>
+        <div class="code-block">// Find old missions
+const oldMissions = await ditto.store.execute(`
+  SELECT _id FROM missions
+  WHERE status = 'Completed' AND completedAt < '2026-01-03'
+`);
+
+// Evict mission
+EVICT FROM missions WHERE status = 'Completed' AND completedAt < '2026-01-03'
+
+// Evict all related data by missionId
+for (mission of oldMissions) {
+  EVICT FROM crew_assignments WHERE missionId = mission._id
+  EVICT FROM flight_logs WHERE missionId = mission._id
+  EVICT FROM mission_briefs WHERE missionId = mission._id
+  EVICT FROM status_updates WHERE missionId = mission._id
+}</div>
+    </div>
+
+    <div class="column" style="margin: 20px 0;">
+        <h3>Aircraft-Related Data (Independent eviction)</h3>
+        <div class="code-block">// Evict resolved maintenance (60 days after resolution)
+EVICT FROM maintenance_status
+WHERE status = 'Resolved'
+AND resolvedAt < '2025-12-03'
+
+// NOTE: This is completely independent of mission eviction!
+// Maintenance records have their own lifecycle.</div>
+    </div>
+
+    <h2>🔗 References vs Denormalization</h2>
+
+    <div class="insight">
+        <p><strong>References</strong> (for application-level lookups, NOT for subscriptions):</p>
+        <ul>
+            <li><code>missions.aircraftTailNumber</code> → Look up aircraft details if needed</li>
+            <li><code>missions.commandPilotId</code> → Look up pilot details if needed</li>
+            <li><code>flight_logs.aircraftTailNumber</code> → Reference which aircraft was flown</li>
+            <li><code>maintenance_status.aircraftTailNumber</code> → Reference which aircraft has issues</li>
+        </ul>
+
+        <p><strong>Denormalized Fields</strong> (for subscription filtering):</p>
+        <ul>
+            <li><code>missionDepartureBase</code> → In all mission-related child collections</li>
+            <li><code>aircraftHomeBase</code> → In maintenance_status</li>
+        </ul>
+
+        <p><strong>Eviction Fields</strong>:</p>
+        <ul>
+            <li><code>missionId</code> → In all mission-related child collections</li>
+            <li><code>aircraftId</code> → In maintenance_status</li>
+        </ul>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            er: {
+                useMaxWidth: true
+            }
+        });
+    </script>
+</body>
+</html>
